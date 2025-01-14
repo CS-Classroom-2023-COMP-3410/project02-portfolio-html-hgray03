@@ -1,0 +1,59 @@
+<!-- contact.html - A simple contact page for Harrison's portfolio -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta information for character encoding and page title -->
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+
+<body bgcolor="#f0f8ff"> <!-- Light blue background for the entire page -->
+    <table border="0" width="100%" cellpadding="20"> <!-- Full-width table for layout management -->
+        
+        <!-- Contact Form Section -->
+        <tr>
+            <td align="center" bgcolor="#e6ffe6"> <!-- Light green background for this section -->
+                <!-- Section Title -->
+                <h1 style="color: darkgreen;">Contact Me</h1>
+
+                <!-- Contact Form that sends an email when submitted -->
+                <form action="harrison.gray@du.edu" method="post" enctype="text/plain">
+                    <table border="0" cellpadding="10"> <!-- Nested table for form fields alignment -->
+                        
+                        <!-- Name Input Field -->
+                        <tr>
+                            <td align="right"><label for="name">Name:</label></td>
+                            <td align="left"><input type="text" id="name" name="name" required></td>
+                        </tr>
+
+                        <!-- Message Input Field -->
+                        <tr>
+                            <td align="right"><label for="message">Message:</label></td>
+                            <td align="left"><textarea id="message" name="message" rows="4" cols="50"></textarea></td>
+                        </tr>
+
+                        <!-- Submit Button -->
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="Send Message">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+
+        <!-- Navigation Section -->
+        <tr>
+            <td align="center" bgcolor="#e0ffff"> <!-- Light cyan background for the footer -->
+                <!-- Link to return to the home page -->
+                <a href="index.html">Back to Home</a>
+            </td>
+        </tr>
+        
+    </table>
+</body>
+
+</html>
